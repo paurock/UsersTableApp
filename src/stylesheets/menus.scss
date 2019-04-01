@@ -1,0 +1,19 @@
+@import "globals";
+
+nav.main-menu {
+  display: flex;
+  flex-direction: row;  
+  background-color: black;
+  color: ghostwhite;
+  width: 100%;
+  min-width: 15%;
+
+  a {
+    color: ghostwhite;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.0em;
+  }
+
+}
+

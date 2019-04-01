@@ -1,2 +1,0 @@
-# UsersTableApp
-Created with CodeSandbox

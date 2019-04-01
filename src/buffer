@@ -3,6 +3,16 @@ import { Portal } from "./components/portal";
 import {useState} from "react";
 import PropTypes from "prop-types";
 
+import React, { useEffect, useState } from 'react';
+import ReactDOM from React-dom
+import fetch from "isomorphic-fetch";
+import { Table } from "./components/table";
+import { Modal } from "./components/modal";
+import { render } from 'react-dom';
 
+const PeopleListH = () => {
 
-     
+const {loading, comapre} = useState(true)
+
+return <div>{console.log(loading)}</div>
+}

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { MainMenu } from "./menus";
 import { PeopleList } from "./users";
+import { PeopleListH } from "./usersH";
 import "./stylesheets/pages.scss";
 
 const PageTemplate = ({ children }) => (
@@ -19,6 +20,11 @@ export const Home = () => (
           [Users]
         </button>
       </Link>
+      <Link to="usersH">
+        <button type="button" className="btn btn-light">
+          [UsersH]
+        </button>
+      </Link>
     </nav>
   </div>
 );
@@ -27,6 +33,14 @@ export const Users = () => (
   <PageTemplate>
     <section className="users">
       <PeopleList />
+    </section>
+  </PageTemplate>
+);
+
+export const UsersH = () => (
+  <PageTemplate>
+    <section className="users">
+      <PeopleListH />
     </section>
   </PageTemplate>
 );

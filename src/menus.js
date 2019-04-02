@@ -12,5 +12,8 @@ export const MainMenu = () => (
     <NavLink to="/users" activeStyle={selectedStyle}>
       [Users]
     </NavLink>
+    <NavLink to="/usersH" activeStyle={selectedStyle}>
+      [UsersH]
+    </NavLink>
   </nav>
 );

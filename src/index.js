@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import { Home, Users, Whoops404 } from "./pages";
+import { Home, Users, UsersH, Whoops404 } from "./pages";
 
 window.React = React;
 
@@ -11,6 +11,7 @@ render(
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/users" component={Users} />
+        <Route path="/usersH" component={UsersH} />
         <Route component={Whoops404} />
       </Switch>
     </div>

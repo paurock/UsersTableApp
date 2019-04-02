@@ -17,7 +17,7 @@ export const Modal = ({
     {isOpen && (
       <Portal>
         <div className="modal-overlay" />
-        <div id="modal" tabindex="-1" role="dialog">
+        <div id="modal" tabIndex="-1" role="dialog">
           <div className="modal-dialog" role="document">
             <div className="modal-content">
               <div className="modal-header">

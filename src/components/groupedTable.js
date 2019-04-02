@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export const TableBodyGroup = ({ groupData = [] }) => (
   <tbody>
     {groupData.map((arr, i) => (
-      <TableTrGroup arr={arr} />
+      <TableTrGroup arr={arr} key={v4()} />
     ))}
   </tbody>
 );
